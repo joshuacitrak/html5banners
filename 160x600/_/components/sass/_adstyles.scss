@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+a#adLink{
+    display:inline-block;
+    text-decoration: none;
+}
+#adContainer
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size:20px;
+    color:#ffffff;
+    background-color: #666666;
+    width:300px;
+    height:250px;
+    border: 1px solid #666;
+    position:relative;
+    overflow:hidden;
+    text-decoration: none;
+}
+.adPos{
+    position:absolute;
+    top:0;
+    left:0;
+}
+#adBox{
+    width:165px;
+    height:120px;
+    top:34px;
+    background-color: #4FAC1C;
+    overflow: hidden;
+    #adBoxTxtWrap{
+        width: inherit;
+    height: 105px;
+    top: 10px;
+    overflow: hidden;
+    }
+}
+#adTxt1, #adTxt2, #adTxt3{
+    width:150px;
+    font-weight:700;
+    font-size:23px;
+    display:inline-block;
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    letter-spacing: -1px;
+    line-height: 29px;
+}
+#adTxt1, #adTxt2{
+    //opacity: 0;
+}
+#adCta{
+     width:120px;
+    height:35px;
+    top: 215px;
+    left: 180px;
+    #adCtaBg, #adCtaTxt, #adCtaArrow{
+        display:inline-block;
+    position: absolute;
+    }
+    #adCtaBg{
+        width:inherit;
+        height:inherit;
+       background-color: #ff6600;
+        left:0;
+    }
+    #adCtaTxt{
+        font-weight:700;
+        font-size: 14px;
+        top:10px;
+        left:8px;
+    }
+    #adCtaArrow{
+        top: 5px;
+    left: 100px;
+    }
+}
+#adBoxRect, #adCtaRect{
+    height:10px;
+}
+#adBoxRect{
+    background-color: #4FAC1C;
+    width:165px;
+     top:34px;
+}
+#adCtaRect{
+    background-color: #ff6600;
+    width:120px;
+    top: 215px;
+    left: 180px;
+}
+#adLogo{
+    top:169px;
+    left:10px;
+}
+#adFader{
+    width: inherit;
+    height: inherit;
+    background-color: #4FAC1C;
+    opacity: 0;
+}
+#adPlay {
+    img{
+    display: inline-block;
+    width:75px;
+    }
+    top:35%;
+    left:35%;
+}
