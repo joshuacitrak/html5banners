@@ -45,8 +45,7 @@ function hoverOut(evt)
 
 $(document).ready(function(){
     //set defaults
-    $('#adFader').css('opacity', '1');
-    //$('#adTxt3').css('opacity', '0');
+    //$('#adFader').css('opacity', '1');
     addListeners();
     //playAd();
 });
