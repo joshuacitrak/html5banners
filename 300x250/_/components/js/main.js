@@ -30,6 +30,7 @@ function clickIn(evt){
 };
 
 function animationComplete(evt){
+    TweenLite.to('#adPlay', .7, {autoAlpha:1, ease: Back.easeOut});
     $( '#adContainer' ).hover( hoverIn, hoverOut );
 };
 
@@ -51,5 +52,6 @@ $(document).ready(function(){
     //playAd();
 });
 
-var tl = new TimelineLite({onComplete:animationComplete});
+var tl = new TimelineLite();
+tl.eventCallback("onComplete", animationComplete);
 
