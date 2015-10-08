@@ -18,30 +18,37 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 a#adLink { display: inline-block; text-decoration: none; }
 
-#adContainer { font-family: 'Open Sans', sans-serif; font-size: 20px; color: #ffffff; background-color: #666666; width: 300px; height: 250px; border: 1px solid #666; position: relative; overflow: hidden; text-decoration: none; }
+#adContainer { font-family: 'Open Sans', sans-serif; font-size: 20px; color: #ffffff; background-color: #666666; width: 728px; height: 90px; border: 1px solid #666; position: relative; overflow: hidden; text-decoration: none; }
 
 .adPos { position: absolute; top: 0; left: 0; }
 
-#adBox { width: 165px; height: 120px; top: 34px; background-color: #4FAC1C; overflow: hidden; }
-#adBox #adBoxTxtWrap { width: inherit; height: 105px; top: 10px; overflow: hidden; }
+#adBgImage { background: url("../img/css_sprite.png") no-repeat top left; width: 728px; height: 90px; }
 
-#adTxt1, #adTxt2, #adTxt3 { width: 150px; font-weight: 700; font-size: 23px; display: inline-block; position: absolute; left: 10px; top: 5px; letter-spacing: -1px; line-height: 29px; }
+#adBox { width: 728px; height: 90px; background-color: #870F83; overflow: hidden; }
+#adBox #adBoxTxtWrap { width: 600px; height: inherit; left: 20px; overflow: hidden; }
 
-#adCta { width: 120px; height: 35px; top: 215px; left: 180px; }
+#adTxt1, #adTxt2 { width: 420px; font-weight: 700; font-size: 25px; display: inline-block; position: absolute; left: 20px; line-height: 29px; }
+
+#adTxt1 { top: 17px; }
+
+#adTxt2 { color: #AA63A8; top: 46px; }
+#adTxt2 .adTrade { vertical-align: text-top; font-size: 16px; }
+
+#adCta { width: 121px; height: 25px; top: 50px; left: 295px; }
 #adCta #adCtaBg, #adCta #adCtaTxt, #adCta #adCtaArrow { display: inline-block; position: absolute; }
-#adCta #adCtaBg { width: inherit; height: inherit; background-color: #ff6600; left: 0; }
-#adCta #adCtaTxt { font-weight: 700; font-size: 14px; top: 10px; left: 8px; }
-#adCta #adCtaArrow { top: 5px; left: 100px; }
+#adCta #adCtaBg { width: inherit; height: inherit; background-color: #0099cc; left: 0; }
+#adCta #adCtaTxt { font-weight: 700; font-size: 14px; top: 5px; left: 8px; }
+#adCta #adCtaArrow { top: 0px; left: 100px; }
 
 #adBoxRect, #adCtaRect { height: 10px; }
 
-#adBoxRect { background-color: #4FAC1C; width: 165px; top: 34px; }
+#adCtaRect { background-color: #0099cc; width: 120px; top: 215px; left: 180px; }
 
-#adCtaRect { background-color: #ff6600; width: 120px; top: 215px; left: 180px; }
+#adLogo1 { background: url("../img/css_sprite.png") no-repeat 0 -96px; top: 15px; left: 549px; width: 160px; height: 60px; }
 
-#adLogo { top: 169px; left: 10px; }
+#adLogo2 { background: url("../img/css_sprite.png") no-repeat 0 -160px; top: 15px; left: 549px; width: 160px; height: 60px; }
 
-#adFader { width: inherit; height: inherit; background-color: #4FAC1C; opacity: 0; }
+#adFader { width: inherit; height: inherit; background-color: #0099cc; opacity: 0; }
 
-#adPlay { top: 35%; left: 35%; }
+#adPlay { top: 8%; left: 45%; }
 #adPlay img { display: inline-block; width: 75px; }

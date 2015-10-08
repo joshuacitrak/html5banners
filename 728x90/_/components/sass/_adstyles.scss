@@ -9,8 +9,8 @@ a#adLink{
     font-size:20px;
     color:#ffffff;
     background-color: #666666;
-    width:300px;
-    height:250px;
+    width:728px;
+    height:90px;
     border: 1px solid #666;
     position:relative;
     overflow:hidden;
@@ -21,38 +21,48 @@ a#adLink{
     top:0;
     left:0;
 }
+#adBgImage{
+    background: url('../img/css_sprite.png') no-repeat top left ;
+    width: 728px;
+    height: 90px;
+}
 #adBox{
-    width:165px;
-    height:120px;
-    top:34px;
-    background-color: #4FAC1C;
+    width:728px;
+    height:90px;
+    background-color: #870F83;
     overflow: hidden;
     #adBoxTxtWrap{
-        width: inherit;
-    height: 105px;
-    top: 10px;
+        width: 600px;
+    height: inherit;
+   left: 20px;
     overflow: hidden;
     }
 }
-#adTxt1, #adTxt2, #adTxt3{
-    width:150px;
+#adTxt1, #adTxt2{
+    width:420px;
     font-weight:700;
-    font-size:23px;
+    font-size:25px;
     display:inline-block;
     position: absolute;
-    left: 10px;
-    top: 5px;
-    letter-spacing: -1px;
+    left: 20px;
     line-height: 29px;
 }
-#adTxt1, #adTxt2{
-    //opacity: 0;
+#adTxt1{
+    top:17px;
+}
+#adTxt2{
+    color:#AA63A8;
+    top:46px;
+    .adTrade{
+    vertical-align: text-top;
+    font-size: 16px;
+    }
 }
 #adCta{
-     width:120px;
-    height:35px;
-    top: 215px;
-    left: 180px;
+     width:121px;
+    height:25px;
+    top: 50px;
+    left: 295px;
     #adCtaBg, #adCtaTxt, #adCtaArrow{
         display:inline-block;
     position: absolute;
@@ -60,42 +70,47 @@ a#adLink{
     #adCtaBg{
         width:inherit;
         height:inherit;
-       background-color: #ff6600;
+       background-color: #0099cc;
         left:0;
     }
     #adCtaTxt{
         font-weight:700;
         font-size: 14px;
-        top:10px;
+        top:5px;
         left:8px;
     }
     #adCtaArrow{
-        top: 5px;
+        top: 0px;
     left: 100px;
     }
 }
 #adBoxRect, #adCtaRect{
     height:10px;
 }
-#adBoxRect{
-    background-color: #4FAC1C;
-    width:165px;
-     top:34px;
-}
 #adCtaRect{
-    background-color: #ff6600;
+    background-color: #0099cc;
     width:120px;
     top: 215px;
     left: 180px;
 }
-#adLogo{
-    top:169px;
-    left:10px;
+#adLogo1{
+     background: url('../img/css_sprite.png') no-repeat 0 -96px;
+    top:15px;
+    left:549px;
+    width:160px;
+    height:60px;
+}
+#adLogo2{
+     background: url('../img/css_sprite.png') no-repeat 0 -160px;
+    top:15px;
+    left:549px;
+    width:160px;
+    height:60px;
 }
 #adFader{
     width: inherit;
     height: inherit;
-    background-color: #4FAC1C;
+    background-color: #0099cc;
     opacity: 0;
 }
 #adPlay {
@@ -103,6 +118,6 @@ a#adLink{
     display: inline-block;
     width:75px;
     }
-    top:35%;
-    left:35%;
+    top:8%;
+    left:45%;
 }
