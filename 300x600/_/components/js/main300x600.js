@@ -43,7 +43,7 @@ $(document).ready(function(){
     $('#adFader').css('opacity', '1');
     //$('#adTxt3').css('opacity', '0');
     addListeners();
-    playAd();
+    //playAd();
 });
 
 var tl = new TimelineLite();

@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font: inherit; font-size: 100%; vertical-align: baseline; }
+
+html { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+caption, th, td { text-align: left; font-weight: normal; vertical-align: middle; }
+
+q, blockquote { quotes: none; }
+q:before, q:after, blockquote:before, blockquote:after { content: ""; content: none; }
+
+a img { border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; }
+
+a#adLink { display: inline-block; text-decoration: none; }
+
+#adContainer { font-family: 'Open Sans', sans-serif; font-size: 20px; color: #ffffff; background-color: #666666; width: 728px; height: 90px; border: 1px solid #666; position: relative; overflow: hidden; text-decoration: none; }
+
+.adPos { position: absolute; top: 0; left: 0; }
+
+#adBgImage { background: url("../img/css_sprite.png") no-repeat top left; width: 728px; height: 90px; }
+
+#adBox { width: 728px; height: 90px; background-color: #870F83; overflow: hidden; }
+#adBox #adBoxTxtWrap { width: 600px; height: inherit; left: 20px; overflow: hidden; }
+
+#adTxt1, #adTxt2 { width: 420px; font-weight: 700; font-size: 25px; display: inline-block; position: absolute; left: 20px; line-height: 29px; }
+
+#adTxt1 { top: 17px; }
+
+#adTxt2 { color: #AA63A8; top: 46px; }
+#adTxt2 .adTrade { vertical-align: text-top; font-size: 16px; }
+
+#adCta { width: 121px; height: 25px; top: 50px; left: 295px; }
+#adCta #adCtaBg, #adCta #adCtaTxt, #adCta #adCtaArrow { display: inline-block; position: absolute; }
+#adCta #adCtaBg { width: inherit; height: inherit; background-color: #0099cc; left: 0; }
+#adCta #adCtaTxt { font-weight: 700; font-size: 14px; top: 5px; left: 8px; }
+#adCta #adCtaArrow { top: 0px; left: 100px; }
+
+#adBoxRect, #adCtaRect { height: 10px; }
+
+#adCtaRect { background-color: #0099cc; width: 120px; top: 215px; left: 180px; }
+
+#adLogo1 { background: url("../img/css_sprite.png") no-repeat 0 -96px; top: 15px; left: 549px; width: 160px; height: 60px; }
+
+#adLogo2 { background: url("../img/css_sprite.png") no-repeat 0 -160px; top: 15px; left: 549px; width: 160px; height: 60px; }
+
+#adFader { width: inherit; height: inherit; background-color: #0099cc; opacity: 0; }
+
+#adPlay { top: 8%; left: 45%; }
+#adPlay img { display: inline-block; width: 75px; }

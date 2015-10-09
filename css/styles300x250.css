@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font: inherit; font-size: 100%; vertical-align: baseline; }
+
+html { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+caption, th, td { text-align: left; font-weight: normal; vertical-align: middle; }
+
+q, blockquote { quotes: none; }
+q:before, q:after, blockquote:before, blockquote:after { content: ""; content: none; }
+
+a img { border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; }
+
+a#adLink { display: inline-block; text-decoration: none; }
+
+#adContainer { font-family: 'Open Sans', sans-serif; font-size: 20px; color: #ffffff; background-color: #666666; width: 300px; height: 250px; border: 1px solid #666; position: relative; overflow: hidden; text-decoration: none; }
+
+.adPos { position: absolute; top: 0; left: 0; }
+
+#adBox { width: 165px; height: 120px; top: 34px; background-color: #4FAC1C; overflow: hidden; }
+#adBox #adBoxTxtWrap { width: inherit; height: 105px; top: 10px; overflow: hidden; }
+
+#adTxt1, #adTxt2, #adTxt3 { width: 150px; font-weight: 700; font-size: 23px; display: inline-block; position: absolute; left: 10px; top: 5px; letter-spacing: -1px; line-height: 29px; }
+
+#adCta { width: 120px; height: 35px; top: 215px; left: 180px; }
+#adCta #adCtaBg, #adCta #adCtaTxt, #adCta #adCtaArrow { display: inline-block; position: absolute; }
+#adCta #adCtaBg { width: inherit; height: inherit; background-color: #ff6600; left: 0; }
+#adCta #adCtaTxt { font-weight: 700; font-size: 14px; top: 10px; left: 8px; }
+#adCta #adCtaArrow { top: 5px; left: 100px; }
+
+#adBoxRect, #adCtaRect { height: 10px; }
+
+#adBoxRect { background-color: #4FAC1C; width: 165px; top: 34px; }
+
+#adCtaRect { background-color: #ff6600; width: 120px; top: 215px; left: 180px; }
+
+#adLogo { top: 169px; left: 10px; }
+
+#adFader { width: inherit; height: inherit; background-color: #4FAC1C; opacity: 0; }
+
+#adPlay { top: 35%; left: 35%; }
+#adPlay img { display: inline-block; width: 75px; }

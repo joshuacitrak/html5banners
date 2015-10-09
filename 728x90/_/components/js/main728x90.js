@@ -45,11 +45,11 @@ function hoverOut(evt)
 };
 
 $(document).ready(function(){
-    //set defaults
+    //set defaults here
     $('#adFader').css('opacity', '1');
     $('#adTxt1').css('top', '46px');
     addListeners();
-    playAd();
+    //playAd();
 });
 
 var tl = new TimelineLite();

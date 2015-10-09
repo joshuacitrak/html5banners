@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font: inherit; font-size: 100%; vertical-align: baseline; }
+
+html { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+caption, th, td { text-align: left; font-weight: normal; vertical-align: middle; }
+
+q, blockquote { quotes: none; }
+q:before, q:after, blockquote:before, blockquote:after { content: ""; content: none; }
+
+a img { border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; }
+
+a#adLink { display: inline-block; text-decoration: none; }
+
+#adContainer { font-family: 'Open Sans', sans-serif; font-size: 20px; color: #ffffff; background-color: #666666; width: 160px; height: 600px; border: 1px solid #666; position: relative; overflow: hidden; text-decoration: none; }
+
+.adPos { position: absolute; top: 0; left: 0; }
+
+#adBgImage { background-image: url("../img/sob_lean_sprite.png"); background-position: left top; background-repeat: no-repeat; width: 160px; height: 212px; top: 103px; }
+
+#adBoxRect1, #adBoxRect2 { width: 160px; height: 370px; background-color: #666666; overflow: hidden; }
+
+#adBoxRect1 { top: -265px; }
+
+#adBoxRect2 { top: 318px; }
+#adBoxRect2 #adBoxTxtWrap { width: inherit; height: 155px; top: 10px; overflow: hidden; }
+
+#adTxt1 { width: 120px; font-weight: 300; font-size: 19px; display: inline-block; position: absolute; left: 10px; top: 5px; line-height: 26px; }
+
+#adCta, #adCtaRect { width: 110px; top: 545px; left: 10px; }
+
+#adCta { height: 35px; }
+#adCta #adCtaBg, #adCta #adCtaTxt, #adCta #adCtaArrow { display: inline-block; position: absolute; }
+#adCta #adCtaBg { width: inherit; height: inherit; background-color: #ff6600; left: 0; }
+#adCta #adCtaTxt { font-weight: 600; font-size: 13px; top: 11px; left: 8px; }
+#adCta #adCtaArrow { top: 6px; left: 90px; }
+
+#adCtaRect { height: 10px; }
+
+#adCtaRect { background-color: #ff6600; width: 110px; top: 545px; left: 10px; }
+
+#adLogo { background-image: url("../img/sob_lean_sprite.png"); background-position: 0 -225px; background-repeat: no-repeat; width: 160px; height: 75px; top: 20px; left: 10px; }
+
+#adFader { width: inherit; height: inherit; background-color: #ff6600; opacity: 0; }
+
+#adPlay { top: 40%; left: 25%; }
+#adPlay img { display: inline-block; width: 75px; }
